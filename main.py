@@ -1,14 +1,13 @@
 
-list_of_candidates_start=["a", "b", "c", "d", "e"]
+list_of_candidates_start=["a", "b", "c", "d"]
 main_arr=[
-    ["", 3, 5, 7, 9, 11, 13, 15],
-    [4, "a", "b", "a", "c", "d", "d", "e"],
-    [3, "b", "d", "b", "d", "e", "b", "d"],
-    [2, "c", "e", "e", "e", "a", "c", "c"],
-    [1, "d", "c", "c", "a", "b", "a", "b"],
-    [0, "e", "a", "d", "b", "c", "e", "a"]]
+    ["", 2, 5, 5, 7],
+    [3, "a", "b", "c", "d"],
+    [2, "b", "d", "a", "a"],
+    [1, "c", "c", "d", "c"],
+    [0, "d", "a", "b", "b"]]
 
-all_cand = (sum(num for num in main_arr[0][0] if num.isdigit()))
+all_cand = 19
 
 def vidnosna_bilshist(array):
     points = array[1][0]
